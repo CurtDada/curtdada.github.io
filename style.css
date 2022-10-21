@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&dsiplay=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #8febd5;
+}
+
+table{
+    width: 900px;
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0; 
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.top{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(208, 9, 9);
+
+    
+}
+p{
+    background-color: #8febd5;
+    font-weight: bold;
+    border-radius: 75px;
+    text-shadow: #000000 1px 1px;
+}
+.left{
+    background-color: #2b2741;
+    padding: 20px;
+    width: 300px;
+}
+.left fieldset{
+    background-color: #8febd5;
+}
+.left legend{
+    background-color: #2b2741;
+    color: white;
+}
+legend{
+    border-radius: 20px 0;
+    padding: 0 10px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: larger;
+    box-shadow: rgba(255, 42, 0, 0.559) 0px 0px 0px 3px;
+    font-weight: bold;
+}
+fieldset{
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   
+}
+.right{
+    width: 600px;
+    background-color: #e7f7f4;
+    padding: 20px;
+}
+
+.right table{
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+.right table tr td{
+    padding: 5px 40px 5px 0;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.right span{
+     line-height: 2;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.percent{
+    padding: 20px;
+}
+
+.con{width: 80%; background-color: #2b2741;}
+.man{width: 70%; background-color: #2b2741;}
+.prob{width: 80%; background-color: #2b2741;}
+.act{width: 90%; background-color: #2b2741;}
+.lead{width: 80%; background-color: #2b2741;}
+
